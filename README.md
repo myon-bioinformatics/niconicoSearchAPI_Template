@@ -1,5 +1,5 @@
 # niconico Snapshot SearchAPI v2Template for Python3
-<img src="https://deliver.commons.nicovideo.jp/thumbnail/nc177467?size=ll"><width="100>
+<img src="https://deliver.commons.nicovideo.jp/thumbnail/nc177467?size=ll" width="100">
 
 niconico as a Japanese video-sharing service on the web API Test Request by Python3
 
