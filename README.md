@@ -7,4 +7,4 @@ niconico as a Japanese video-sharing service on the web API Test Request by Pyth
 You can confirm for niconico Snapshot Search API v2 Tips at Wiki.
 
 ## Reference
-About niconico REST API: https://site.nicovideo.jp/search-api-docs/snapshot
+- About niconico REST API: https://site.nicovideo.jp/search-api-docs/snapshot
