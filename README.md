@@ -2,7 +2,7 @@
 ## Summary
 <img src="https://deliver.commons.nicovideo.jp/thumbnail/nc177467?size=ll" width="100">
 
-- niconico as a Japanese video-sharing service on the web API Test Request by Python3
+niconico as a Japanese video-sharing service on the web API Test Request by Python3
 >__Note__ You can confirm for niconico Snapshot Search API v2 Tips at Wiki.
 
 ## Reference
