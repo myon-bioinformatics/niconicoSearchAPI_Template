@@ -2,7 +2,6 @@ import json
 import time
 import requests
 
-
 api= "https://api.search.nicovideo.jp/api/v2/snapshot/video/contents/search"
 fields_info = "title"+","+"contentId" #"description","tags" can be also added
 data = {#"q","targets","_sort","_context" must be written
