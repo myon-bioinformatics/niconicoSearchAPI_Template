@@ -1,6 +1,5 @@
 import unittest
 import requests
-from  niconico_search_api_template import niconico_search
 
 class TestNicoNicoSearch(unittest.TestCase):
     def test_niconico_search_good_request(self) -> None:
