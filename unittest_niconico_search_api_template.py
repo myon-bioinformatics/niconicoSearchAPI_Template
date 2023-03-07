@@ -1,9 +1,11 @@
 import unittest
 import requests
 
+api = "https://api.search.nicovideo.jp/api/v2/snapshot/video/contents/search"
+
 class TestNicoNicoSearch(unittest.TestCase):
     def test_niconico_search_good_request(self) -> None:
-        response = requests.post("https://api.search.nicovideo.jp/api/v2/snapshot/video/contents/search",
+        response = requests.post(api,
         data={
             "q": "初音ミク",
             "targets": "title",
@@ -17,7 +19,7 @@ class TestNicoNicoSearch(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_niconico_search_bad_request(self) -> None:
-        response = requests.post("https://api.search.nicovideo.jp/api/v2/snapshot/video/contents/search",
+        response = requests.post(api,
         data={
             "q": "初音ミク",
             "targets": "title",
