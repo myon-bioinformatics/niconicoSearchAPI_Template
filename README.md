@@ -1,18 +1,25 @@
-# niconico Snapshot SearchAPI v2Template for Python3
-## Summary
-<img src="https://deliver.commons.nicovideo.jp/thumbnail/nc177467?size=ll" width="100">
+# niconico Snapshot Search API v2 Template
 
-![GitHub license](https://img.shields.io/github/license/myon-bioinformatics/niconicoSearchAPI_Template)
-![GitHub last commit](https://img.shields.io/github/last-commit/myon-bioinformatics/niconicoSearchAPI_Template)
-[![CodeQL](https://github.com/myon-bioinformatics/niconicoSearchAPI_Template/actions/workflows/codeql.yml/badge.svg)](https://github.com/myon-bioinformatics/niconicoSearchAPI_Template/actions/workflows/codeql.yml)
+> [!IMPORTANT]
+> **Archived / no longer actively maintained.**
+>
+> This repository is preserved as a small historical example of calling the niconico Snapshot Search API v2 from Python. No further feature or compatibility maintenance is planned.
 
-[![GitHub followers](https://img.shields.io/github/followers/myon-bioinformatics?style=social)](https://github.com/myon-bioinformatics)
-[![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/myon_reddit?style=social)](https://www.reddit.com/user/myon_reddit/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/myonitbusiness?style=social)](https://twitter.com/myonitbusiness)
+## Historical purpose
 
+The project demonstrates a minimal Python request to the niconico Snapshot Search API v2.
 
-__niconico as a Japanese video-sharing service on the web API Test Request by Python3__
->__Note__ You can confirm for niconico Snapshot Search API v2 Tips at Wiki.
+It is kept public for reference, but it is not used as a shared module by the owner's current GitHub repositories. For new work, consult the current niconico API documentation and build against its current contract.
+
+## Contents
+
+- `niconico_search_api_template.py` — example client
+- `test_niconico_search_api_template.py` — accompanying tests
 
 ## Reference
-- About niconico REST API: https://site.nicovideo.jp/search-api-docs/snapshot
+
+- niconico Snapshot Search API documentation: https://site.nicovideo.jp/search-api-docs/snapshot
+
+## Maintenance status
+
+This repository is intended to become read-only after GitHub archival. Existing source and history are retained for reference.
